@@ -20,7 +20,7 @@
 1. 打开 PowerShell，进入项目目录：
 
 ```powershell
-cd "d:\zhuomian\新建文件夹 (2)"
+cd "d:\system_info_gui-main\system_info_gui-main"
 ```
 
 2. 安装依赖：
@@ -63,28 +63,8 @@ python system_info_gui.py
 - 将报告格式化为可读文本，显示在窗口中
 - 用户点击“导出 Excel”按钮，程序把每个信息模块写入不同工作表
 
-## 打包成 EXE
 
-如果你希望把程序打包成单个可执行文件，请按以下步骤操作：
-
-1. 安装 PyInstaller（如果尚未安装）：
-
-```powershell
-python -m pip install pyinstaller
-```
-
-2. 执行打包脚本：
-
-```powershell
-.\build_exe.ps1
-```
-
-3. 完成后，生成的可执行文件位于：
-
-```text
-dist\SystemInfoCollector.exe
-```
-
+## 打包成exe
 ### 直接使用 PyInstaller 命令
 
 ```powershell
