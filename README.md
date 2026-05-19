@@ -98,3 +98,6 @@ pyinstaller --onefile --noconsole --name SystemInfoCollector system_info_gui.py
 - `system_info_gui.py`：主程序源码
 - `requirements.txt`：运行和打包所需依赖
 - `README.md`：项目说明与使用方法
+
+## 成品展示   
+<img width="1324" height="1095" alt="屏幕截图 2026-05-19 193657" src="https://github.com/user-attachments/assets/ad00a9cc-e020-4390-b5de-7fa49e9f3dbe" />
